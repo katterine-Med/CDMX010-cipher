@@ -6,9 +6,31 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
+    <header  id="Bienvenida" style="display:block"
+    <div class="content-box">BIENVENIDO</div> 
+  </header>
+    <result>
+        <section class="box">Crea un lenguaje especial con tu pareja, que sólo ustedes   conocerán.
+          ¿Quieres comenzar?
+          <button type="button" id="OK onclick ="displayview(1)">OK</button>
+          <button type="button" id="CANCEL">CANCEL</button></section>
+         </section>
+         <result>
+        <section id="funcionamiento" style="display:none">
+          <h1> MENSAJE SECRETO:</h1>
+          <h3>INGRESE MENSAJE:</h3>
+          <p><input type="text" id="mensaje"/></p>
+          <H3>DESPLAZAMIENTO:</H3>
+          <p><input type="number" id="desplazamiento" min=0 max=26 size="4"/></p>
+          <p><button type="button" id="cifrar">Cifrar</button>
+          <button type="button" id="descifrar">Descifrar</button></p>
+          <h3>MENSAJE CIFRADO/DESCIFRADO:</h3>
+          <p><input type="text" id="mensaje2"/></p>
+        </section>
+
+  
+
+
     <script src="index.js" type="module"></script>
   </body>
 </html>
