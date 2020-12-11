@@ -38,6 +38,8 @@
      text-align: auto;
      font-size: 9px;
    }
- 
+   
   }
- 
+ #pantalla2{
+     display: none;
+ }
