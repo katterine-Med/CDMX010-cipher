@@ -1,10 +1,8 @@
 
  body{ 
-
-   
-    font-size: 30px;
-    background-image: url(https://galeria.justforfunbox.com/wp-content/uploads/2013/08/fondo-naranja1.jpg)
-     }
+     font-size: 30px;
+     background-image: url(https://galeria.justforfunbox.com/wp-content/uploads/2013/08/fondo-naranja1.jpg)
+    }
     .content-box{
      color:yellow;
      width:60%; 
@@ -16,19 +14,17 @@
      margin:auto;
      }
     .box{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-    color: white;
-    background: #e22349;
-    text-align: center;
-    margin:  auto;
-    overflow: hidden;
-    box-sizing: border-box;
-    max-width: 25%;
-    padding: 80px;
-    
-   }
-   #OK{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 16px;
+     color: white;
+     background: #e22349;
+     text-align: center;
+     margin:  auto;
+     overflow: hidden;
+      box-sizing: border-box;
+     max-width: 25%;
+     padding: 80px;}
+    #OK{
      color: #dc143c;
      background-color:aliceblue;
      border-bottom-color: none;
@@ -37,9 +33,48 @@
      border-radius: 4px;
      text-align: auto;
      font-size: 9px;
-   }
-   
-  }
- #pantalla2{
-     display: none;
+     }
+
+
+     .box2 {
+        text-align: center;
+        background-image: url( https://www.dhresource.com/f2/albu/g8/M00/09/23/rBVaV12msQGAGuVUAAM125lywms005.jpg);
+      
+
+        } 
+    #cifrar{
+        color: whitesmoke;
+        background-color: transparent;
+    }
+    #descifrar{
+        color: whitesmoke;
+        background-color: transparent;
+    }
+    #mensaje{
+        color: yellow;
+        background-color: transparent;
+    }
+    #desplazamiento{
+        background-color: transparent;
+        color:silver;
+    }
+    #mensaje2{
+        background-color: transparent;
+    }
+
+    }
+
+
+
+    
+    }
+
+
+
+
+    }
+    
+    
+    
+        
  }

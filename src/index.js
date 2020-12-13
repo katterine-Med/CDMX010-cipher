@@ -16,5 +16,11 @@ function DisplayView(option) {
       console.log(funcionamiento.style.display);
       break;
     }
+    
+    function cifrar (){
+        let offset  =document.getElementById('desplazamiento').value;
+        alert(desplazamiento);
+       }
+        document.getElementById('cifrar').addEventListener('click', cifrar);
       
 console.log(cipher);
