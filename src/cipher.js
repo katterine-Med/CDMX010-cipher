@@ -1,9 +1,9 @@
 const cipher = {
   
-  let mensaje =document.getElementById("mensaje":string).value.toUpperCase();
+  let mensaje =document.getElementById("mensaje": string).value.toUpperCase();
  offset=document.getElementById('desplazamiento').value;
  offset=parseInt(offset,(desplazamiento))
- /*funtion cifrar (){
+  funtion cifrar (){
   offset=document.getElementById('desplazamiento').value;
   console.log (desplazamiento);
  }
@@ -11,7 +11,7 @@ const cipher = {
   Console.log(mensaje)*/
 
    //cipher.encode(offset, string): offset;
-   /*let output= [];
+    let output= [];
    for (let i=0; i <String.length; i++){
      let asciiLetter= string.charCodeAt(i);
      let stringResult= (((asciiLetter-65)+offset)%26)+65);
@@ -19,7 +19,7 @@ const cipher = {
      console.log(stringResult);
     output [i]= String.fromCharCode(stringResult;)
    function descifrar(); {
-     console.log (offset);*/
+     console.log (offset);
   }
  
   

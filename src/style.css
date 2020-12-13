@@ -38,8 +38,8 @@
 
      .box2 {
         text-align: center;
-        background-image: url( https://www.dhresource.com/f2/albu/g8/M00/09/23/rBVaV12msQGAGuVUAAM125lywms005.jpg);
-      
+        background-image: url(https://i.pinimg.com/736x/6b/62/5a/6b625a92db5d8d154deb2f3c60868985.jpg);
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
         } 
     #cifrar{
@@ -61,6 +61,7 @@
     #mensaje2{
         background-color: transparent;
     }
+    
 
     }
 
