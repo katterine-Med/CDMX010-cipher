@@ -1,6 +1,6 @@
 const cipher = {
   
-  let mensaje =document.getElementById("mensaje": string).value.toUpperCase();
+  //let mensaje =document.getElementById("mensaje": string).value.toUpperCase();
  offset=document.getElementById('desplazamiento').value;
  offset=parseInt(offset,(desplazamiento))
   funtion cifrar (){
