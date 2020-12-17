@@ -6,30 +6,30 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-    <div class="content-box">BIENVENIDO</div> 
-   </header>
-    <result>
-      <section id="pantalla1" class="box">Crea un lenguaje especial con tu pareja, que sólo ustedes   conocerán.
+    <div id="ok1" class="content-box" >
+      <p>BIENVENIDO</p></div>
+      <div id="pantalla1" class="box" style="display: visible;" >Crea un lenguaje especial con tu pareja, que sólo ustedes conocerán.
         ¿Quieres comenzar?
-        <button type="button" id="ok" onclick ="displayview(1);">OK</button></section>
-      <div  id="pantalla2" class="box2">
-        <section  button class= "funcionamiento" onclick="displayView(2);"></button>
-        <h1> MENSAJE SECRETO</h1> 
-        <h3>INGRESE MENSAJE:</h3>
-        <label for="mensaje" class="forInput"></label>
-        <input type="text" id="mensaje">
-        <H3>DESPLAZAMIENTO:</H3>
-        <p><input type="number" id="desplazamiento" min=0 max=26 size="4"/></p>
-        <p><button type="button" id="cifrar">Cifrar</button>
-        <button type="button" id="descifrar">Descifrar</button></p>
-        <h3>MENSAJE CIFRADO/DESCIFRADO:</h3>
-        <p><input type="text" id="mensaje2"/></p>
+        <button id="okF" >OK</button>
+      </div>
+
+      <div id="pantalla2" class="box2" style="display: none;">
+         <button class= "funcionamiento" onclick="final();"></button>
+         <h1> MENSAJE SECRETO</h1> 
+         <h3>INGRESE MENSAJE</h3>
+         <label for="" class="forInput"></label>
+         <input type="text" id="mensaje">
+         <H3>DESPLAZAMIENTO:</H3>
+         <p><input type="number" id="desplazamiento" min=0 max=26 size="4"/></p>
+         <p><button type="button" id="cifrar">Cifrar</button>
+         <button type="button" id="descifrar">Descifrar</button></p>
+         <h3>MENSAJE CIFRADO/DESCIFRADO:</h3>
+         <p><input type="text" id="mensaje2"/></p>
 
         </section>
 
       </div>
 
-    <script src="index.js" type="module"></script>
+    <script src="index.js" type="module" ></script>
   </body>
 </html>

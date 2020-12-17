@@ -1,9 +1,10 @@
 
  body{ 
      font-size: 30px;
-     background-image: url(https://galeria.justforfunbox.com/wp-content/uploads/2013/08/fondo-naranja1.jpg)
-    }
+     background-image: url(https://i.pinimg.com/originals/30/4b/4c/304b4c28d5f9a7f59978e77f786a7018.jpg)
+     }
     .content-box{
+     background-color: tomato;
      color:yellow;
      width:60%; 
      height:8%;
@@ -13,6 +14,7 @@
      text-align: center;
      margin:auto;
      }
+    
     .box{
      font-family: Verdana, Geneva, Tahoma, sans-serif;
      font-size: 16px;
@@ -23,7 +25,8 @@
      overflow: hidden;
       box-sizing: border-box;
      max-width: 25%;
-     padding: 80px;}
+     padding: 80px;
+    }
     #OK{
      color: #dc143c;
      background-color:aliceblue;
@@ -61,6 +64,9 @@
         background-color: transparent;
     }
     
+
+
+    }
 
     }
 
