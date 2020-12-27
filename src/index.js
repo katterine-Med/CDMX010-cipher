@@ -23,15 +23,23 @@ input.addEventListener('input', function (evt) {
 })
 //const mensaje2 =  input. document.getElementById('mensaje2');
 //DECLARACION DE VARIABLES PARA CIFRAR
-
-const desplazamiento = Number.parseInt(document.getElementById("desplazamiento").value);
-document.getElementById('cifrar').addEventListener("click",  false);
+//const desplazamiento = Number.parseInt(document.getElementById("desplazamiento").value);
+//document.getElementById('cifrar').addEventListener("click",  false);
 //funcion para cifrar
-console.log(cipher.encode(desplazamiento, input))
-document.getElementById('mensaje2').textContent = value;
+
+var desplazamiento = document.getElementById("desplazamiento");
+document.getElementById('cifrar').addEventListener("click", funcionCifrar, false);
+// //funcion para cifrar
+// console.log(cipher.encode(desplazamiento, input))
+// document.getElementById('mensaje2').textContent = value;
 
 function funcionCifrar() {
-   alert ("hola")
+  var des = Number.parseInt(desplazamiento.value);
+  var mensaje_ya_cifrado = cipher.encode(des, input.value);
+  // console.log(mensaje_ya_cifrado);
+  // console.log(desplazamiento);
+  document.getElementById('mensaje2').textContent = mensaje_ya_cifrado;
+  // document.getElementById('desplazamiento').textContent = null;
 }
 
 
