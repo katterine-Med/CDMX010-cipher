@@ -1,11 +1,9 @@
 import cipher from './cipher.js';
-//const  document.getElementById ('mensaje');
-
-
+//declaracion de variables 
 
 document.getElementById('okF').addEventListener("click", inicio, false);
 
-//document.getElementById('ok').addEventListener('click', DisplayView);//
+//funcion para mostrar pantalla
 function inicio() {
     let siguiente = document.getElementById('pantalla2');
     document.getElementById("pantalla1").style.display = "none";
@@ -17,20 +15,28 @@ function final() {
     document.getElementById("pantalla1").style.display = "block";
 
 }
+//funcion para hacer mayusculas al ingresar texto usuario
 const input = document.getElementById('mensaje')
 input.addEventListener('input', function (evt) {
 
     input.value = evt.target.value.toUpperCase()
 })
+//const mensaje2 =  input. document.getElementById('mensaje2');
+//DECLARACION DE VARIABLES PARA CIFRAR
 
-console.log(cipher.encode(3,"CASA")) 
-document.getElementById ('mensaje2').textContent = value;
-//en un futuro tienes que borrrar esto pero de momento nos sirve para ejecutar la funcion encode
+const desplazamiento = Number.parseInt(document.getElementById("desplazamiento").value);
+document.getElementById('cifrar').addEventListener("click",  false);
+//funcion para cifrar
+console.log(cipher.encode(desplazamiento, input))
+document.getElementById('mensaje2').textContent = value;
 
- /*function cifrar (){
-       let offset  =document.getElementById('desplazamiento').value;
-       alert(desplazamiento);
-      }
-       document.getElementById('cifrar').addEventListener('click', cifrar);*/
+function funcionCifrar() {
+   alert ("hola")
+}
 
-//console.log(cipher);
+
+
+
+
+
+console.log(cipher);

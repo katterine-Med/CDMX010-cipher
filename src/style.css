@@ -41,7 +41,7 @@
 
     .box2 {
         text-align: center;
-       background-image: url(https://www.solofondos.com/wp-content/uploads/2016/09/6b625a92db5d8d154deb2f3c60868985.jpg);
+       background-image: url(https://i.pinimg.com/736x/6b/62/5a/6b625a92db5d8d154deb2f3c60868985.jpg);
       font-family: Georgia, 'Times New Roman', Times, serif
       } 
     #cifrar{
@@ -55,6 +55,7 @@
     #mensaje{
         color: yellow;
         background-color: transparent;
+        padding: 30px;
     }
     #desplazamiento{
         background-color: transparent;
@@ -62,4 +63,6 @@
     }
     #mensaje2{
         background-color: transparent;
+        padding: 30px;
+        
     }

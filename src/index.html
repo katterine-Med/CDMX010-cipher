@@ -8,7 +8,7 @@
   <body>
     <div id="ok1" class="content-box" >
       <p>BIENVENIDO</p></div>
-      <div id="pantalla1" class="box" style="display: visible;" >Crea un lenguaje especial con tu pareja, que sólo ustedes conocerán.
+      <div id="pantalla1" class="box" style="display: visible;" >Crea un lenguaje secreto con tu pareja.
         ¿Quieres comenzar?
         <button id="okF" >OK</button>
       </div>
@@ -21,10 +21,11 @@
          <input type="text" id="mensaje">
          <H3>DESPLAZAMIENTO:</H3>
          <p><input type="number" id="desplazamiento" min=0 max=26 size="4"/></p>
-         <p><button type="button" id="cifrar">Cifrar</button>
+         <p><button type="button" id="cifrar" on-click="funcionCifrar()">Cifrar</button>
          <button type="button" id="descifrar">Descifrar</button></p>
          <h3>MENSAJE CIFRADO/DESCIFRADO:</h3>
-         <span  id="mensaje2"/></span>
+         <br> <br>
+         <output  type= box3 id="mensaje2" /></output>
 
         </section>
 
