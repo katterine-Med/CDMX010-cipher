@@ -30,22 +30,22 @@ document.getElementById('descifrar').addEventListener("click", funcionDescifrar,
 // //funcion para cifrar
 
 function funcionCifrar() {
-  var des = Number.parseInt(desplazamiento.value);
-  var mensaje_ya_cifrado = cipher.encode(des, input.value);
-  // console.log(mensaje_ya_cifrado);
-  // console.log(desplazamiento);
-  document.getElementById('mensaje2').textContent = mensaje_ya_cifrado;
-  // document.getElementById('desplazamiento').textContent = null;
+    var des = Number.parseInt(desplazamiento.value);
+    var mensaje_ya_cifrado = cipher.encode(des, input.value);
+    // console.log(mensaje_ya_cifrado);
+    // console.log(desplazamiento);
+    document.getElementById('mensaje2').textContent = mensaje_ya_cifrado;
 }
 
-const output= document.getElementById('mensaje2')
+const output = document.getElementById('mensaje2')
 function funcionDescifrar() {
     var des = Number.parseInt(desplazamiento.value);
     var mensaje_descifrado = cipher.decode(des, output);
 
-    document.getElementById('mensaje2').textContent = mensaje_descifrado;
+    //document.getElementById('mensaje3').textContent = mensaje_descifrado;
+    console.log(mensaje_descifrado);
 }
-
+console.log("hola");
 
 
 

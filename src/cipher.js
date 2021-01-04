@@ -11,13 +11,15 @@ const cipher = {
   },
   
   decode: function(offset, string) {
-    let output = [];
-     
-    for (let i =0;  i<stringt.length; i++) {let ascii= string.charCodeAt(i);
+    let output = "";
+    for (let i =0;  i<string.length; i++) {
+      let asciiLetter = string.charCodeAt(i);
       let stringResult2= (((asciiLetter - 65) - offset) % 26 + 65);
-      output[i] = String.fromCharCode(stringResult2);
+      output = output+stringResult2;
+      stringResult2= output[i];
     }
-    return output 
+    //return output 
+    return string
    }
   }
 export default cipher;
