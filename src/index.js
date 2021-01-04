@@ -32,17 +32,16 @@ document.getElementById('descifrar').addEventListener("click", funcionDescifrar,
 function funcionCifrar() {
     var des = Number.parseInt(desplazamiento.value);
     var mensaje_ya_cifrado = cipher.encode(des, input.value);
-    // console.log(mensaje_ya_cifrado);
-    // console.log(desplazamiento);
+    
     document.getElementById('mensaje2').textContent = mensaje_ya_cifrado;
 }
-
+//funcion descifrar
 const output = document.getElementById('mensaje2')
 function funcionDescifrar() {
     var des = Number.parseInt(desplazamiento.value);
-    var mensaje_descifrado = cipher.decode(des, output);
+    var mensaje_descifrado = cipher.decode(des, output.value);
 
-    //document.getElementById('mensaje3').textContent = mensaje_descifrado;
+    document.getElementById('mensaje3').textContent = mensaje_descifrado;
     console.log(mensaje_descifrado);
 }
 console.log("hola");
