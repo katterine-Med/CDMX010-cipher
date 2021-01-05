@@ -47,6 +47,7 @@
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       color: gold;
       border-color: black;
+      padding: 5%;
       
       } 
     #cifrar{
@@ -74,14 +75,14 @@
         background-color: black;
         padding: none;
         border-radius: 8px;
-        padding: 1%;
+        padding: 25px;
         color: orchid;
     }
 
     #mensaje3{
         background-color: white;
         color: orchid;
-        padding: 1%;
+        padding: 25px;
         border-radius: 8px;
         border-color: transparent;
     }
