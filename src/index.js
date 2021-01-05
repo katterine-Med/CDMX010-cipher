@@ -22,6 +22,8 @@ input.addEventListener('input', function (evt) {
     input.value = evt.target.value.toUpperCase()
 })
 //funcion para cifrar
+//declarar la variable desde html
+//llamar los botones de html
 
 var desplazamiento = document.getElementById("desplazamiento");
 document.getElementById('cifrar').addEventListener("click", funcionCifrar, false);
@@ -46,6 +48,9 @@ function funcionDescifrar() {
 }
 console.log("hola");
 
-
-
+//metodo encode y decode con parametro desplazamiento y cadena
+// una funcion se declara como tal, al llamar una funcion se ejecuta una accion
+/*para invocar un metodo se declara al objeto o clase, un metodo es la capacidad de un objeto. 
+un conjunto de funcionalidades que dependen del objeto*/
+//objeto es una coleccion de propiedades ejem: nombre y un valor
 console.log(cipher);

@@ -1,38 +1,43 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="ok1" class="content-box" >
-      <p>BIENVENIDO</p></div>
-      <div id="pantalla1" class="box" style="display: visible;" >Crea un lenguaje secreto con tu pareja.
-        ¿Quieres comenzar?
-        <button id="okF" >OK</button>
-      </div>
 
-      <div id="pantalla2" class="box2" style="display: none;">
-         <button class= "funcionamiento" onclick="final();"></button>
-         <h1> MENSAJE SECRETO</h1> 
-         <h3>INGRESE MENSAJE</h3>
-         <label for="" class="forInput"></label>
-         <input type="text" id="mensaje">
-         <H3>DESPLAZAMIENTO:</H3>
-         <p><input type="number" id="desplazamiento" min=0 max=26 size="4"/></p>
-         <p><button type="button" id="cifrar" >Cifrar</button>
-         <button type="button" id="descifrar" >Descifrar</button>
-         <h3>MENSAJE CIFRADO/DESCIFRADO:</h3>
-         <br> <br>
-         <output  type= box3 id="mensaje2" /></output>
-         <br> <br>
-         <output  type= box4 id="mensaje3" /></output>
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-        </section>
+<body>
+  <div id="ok1" class="box">
+    <p>BIENVENIDO</p>
+  </div>
+  <div id="pantalla1" class="box1" style="display: visible;">Crea un lenguaje secreto con tu pareja.
+    ¿Quieres comenzar?
+    <button id="okF">OK</button>
+  </div>
 
-      </div>
+  <div id="pantalla2" class="box2" style="display: none;">
+    <button class="funcionamiento" onclick="final();"></button>
+    <h1> MENSAJE SECRETO</h1>
+    <h3>INGRESE MENSAJE</h3>
+    <label for="" class="forInput"></label>
+    <input type="text" id="mensaje">
+    <H3>DESPLAZAMIENTO:</H3>
+    <p><input type="number" id="desplazamiento" min=0 max=26 size="4" /></p>
+    <p><button type="button" id="cifrar">Cifrar</button>
+      <button type="button" id="descifrar">Descifrar</button>
+    <h3>MENSAJE CIFRADO/DESCIFRADO:</h3>
+    <div>
+      <output type=box3 id="mensaje2" /></output></div>
+    <br> <br>
+    <div>
+      <output type=box4 id="mensaje3" /></output></div>
 
-    <script src="index.js" type="module" ></script>
-  </body>
+    </section>
+
+  </div>
+
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>

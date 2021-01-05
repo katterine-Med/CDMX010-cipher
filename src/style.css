@@ -1,31 +1,33 @@
 
  body{ 
      font-size: 30px;
-     background-image: url(https://i.pinimg.com/originals/30/4b/4c/304b4c28d5f9a7f59978e77f786a7018.jpg)
+     background-image: url(https://ep01.epimg.net/verne/imagenes/2016/06/24/articulo/1466778634_945030_1466779078_rrss_normal.jpg)
      }
-    .content-box{
+    #ok1{
      background-color: tomato;
      color:yellow;
-     width:60%; 
-     height:8%;
-     padding: 30px;
+     width:80%; 
+     height:100%;
+     padding: 1%;
      border-radius: 8px;
      background: purple;
      text-align: center;
      margin:auto;
+     
      }
     
-    .box{
+    .box1{
      font-family: Verdana, Geneva, Tahoma, sans-serif;
      font-size: 16px;
      color: white;
      background: #e22349;
      text-align: center;
-     margin:  auto;
-     overflow: hidden;
+     margin: auto;
+     overflow: auto;
       box-sizing: border-box;
      max-width: 25%;
      padding: 80px;
+     
     }
     #OK{
      color: #dc143c;
@@ -41,33 +43,46 @@
 
     .box2 {
         text-align: center;
-       background-image: url(https://i.pinimg.com/736x/6b/62/5a/6b625a92db5d8d154deb2f3c60868985.jpg);
-      font-family: Georgia, 'Times New Roman', Times, serif
+       background-image: url(https://img.freepik.com/vector-gratis/corazones-morados-sobre-morado_24911-56814.jpg?size=338&ext=jpg);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: gold;
+      border-color: black;
+      
       } 
     #cifrar{
         color: whitesmoke;
-        background-color: transparent;
+        background-color: black;
+        border-color: yellow;
     }
     #descifrar{
-        color: whitesmoke;
-        background-color: transparent;
+        color: white;
+        background-color: black;
+        border-color: yellow;
     }
     #mensaje{
         color: yellow;
-        background-color: transparent;
+        background-color: purple;
         padding: 30px;
+        border-radius: 5px;
     }
     #desplazamiento{
         background-color: transparent;
-        color:silver;
+        color:black;
+        border-color: black;
     }
     #mensaje2{
-        background-color: transparent;
-        padding: 30px;
-        
+        background-color: black;
+        padding: none;
+        border-radius: 8px;
+        padding: 1%;
+        color: orchid;
     }
+
     #mensaje3{
-        background-color: transparent;
-        padding: 30px;
-        
+        background-color: white;
+        color: orchid;
+        padding: 1%;
+        border-radius: 8px;
+        border-color: transparent;
     }
+    
